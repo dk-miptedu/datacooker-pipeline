@@ -17,7 +17,9 @@
 
 ## Алгоритм решения - `Data-API pipeline`
 
-![alt text](./assets/img/data-api-fabrica.png)
+Схема 1. workflow процесса подготовки данных
+
+![workflow процесса подготовки данных](./assets/img/data-api-fabrica.png)
 
 **Описание алгоритма**
 
@@ -37,6 +39,4 @@
 Постусловие
 Система получает подтверждение выполненного задания.
 
-https://github.com/dk-miptedu/datacooker-pipeline/blob/main/assets/img/data-api-fabrica.png
-https://github.com/dk-miptedu/datacooker-pipeline/raw/main/assets/img/imdata-api-fabrica.png
 
