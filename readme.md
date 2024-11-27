@@ -17,7 +17,7 @@
 
 ## Алгоритм решения - `Data-API pipeline`
 
-![alt text](./assets/img/imdata-api-fabrica.png)
+![alt text](/assets/img/imdata-api-fabrica.png)
 
 **Описание алгоритма**
 
