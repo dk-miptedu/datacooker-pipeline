@@ -1,0 +1,14 @@
+{
+    "studentData": {
+        "age": 19,
+        "residenceRegion": "Владимирская область",
+        "averageScore": 4.5,
+        "profession": "Информатика и вычислительная техника",
+        "administrativeOffense": 2,
+        "overdueLoanStudent": 13.45
+    },
+    "parentsData": {
+        "overdueLoanParents": 15.67,
+        "parentsBankruptcy": false
+    }
+}

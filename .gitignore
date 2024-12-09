@@ -8,5 +8,7 @@
 # Local History for Visual Studio Code
 .history/
 
+assets/sergio_m
+assets/config
 # Built Visual Studio Code Extensions
 *.vsix

@@ -67,7 +67,7 @@
           "type": "string"
         },
         "birthDate": {
-          "description": "Дата рождения",
+          "description": "Дата рождения, сколько полных лет?",
           "type": "string"
         },
         "citizenship": {
@@ -83,11 +83,11 @@
           ],
           "properties": {
             "registrationAddress": {
-              "description": "Адрес регистрации",
+              "description": "Адрес регистрации, определи код региона и используй его",
               "type": "string"
             },
             "residentialAddress": {
-              "description": "Адрес проживания",
+              "description": "Адрес проживания, определи код региона и используй его",
               "type": "string"
             }
           }

@@ -20,19 +20,19 @@
       ],
       "properties": {
         "age": {
-          "description": "Возраст студента",
+          "description": "Возраст студента рассчитываетс по Дате рождения",
           "type": "integer"
         },
         "residenceRegion": {
-          "description": "Код региона проживания студента",
+          "description": "Код региона проживания студента определить по Адресу",
           "type": "string"
         },
         "averageScore": {
-          "description": "Средний балл студента",
+          "description": "Средний балл студента, рассчитать по оценкам ЕГЭ",
           "type": "number"
         },
         "profession": {
-          "description": "Будущая специальность студента (согласно словарю)",
+          "description": "Будущая специальность студента определи согласно словарю",
           "type": "string"
         },
         "administrativeOffense": {
@@ -40,7 +40,7 @@
           "type": "integer"
         },
         "overdueLoanStudent": {
-          "description": "%  кредитов с просрочкой студента",
+          "description": "процент кредитов с просрочкой студента определи по данным из json",
           "type": "number"
         }
       }
@@ -54,7 +54,7 @@
       ],
       "properties": {
         "overdueLoanParents": {
-          "description": "%  кредитов с просрочкой родителей",
+          "description": "процент кредитов с просрочкой родителей",
           "type": "number"
         },
         "parentsBankruptcy": {

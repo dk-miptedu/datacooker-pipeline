@@ -4,7 +4,7 @@
     "lastName": "Иванов",
     "middleName": "Иванович",
     "gender" : "M",
-    "birthDate" : "19.12.2005",
+    "birthDate" : "19.12.2014",
     "citizenship" : "Россия",
     "addresses" : {
       "registrationAddress" : "Владимирская область, г. Владимир ул.Ленина 3",
@@ -21,7 +21,7 @@
     },
     "applicationInfo" : {
       "applicationDate" : "2024-11-22T06:06:27.292Z",
-      "product" : "Образовательный кредит"
+      "applicationID" : "Образовательный кредит"
     }
   }
 }

@@ -1,7 +1,9 @@
 # Authorization Key передается в заголовке запроса на получение Access Token.
 #Значение поля является результатом кодирования пары Client ID:Client Secret в base64
 
-"Authorization Key": "MzgyZTdkNGItZTc5MS00NmU3LTg4NjctNDA0MjVlOGNjYjY5OjlmNzk5ZjU0LTczMTQtNDVjYi1hYTRjLWVlOTliYjVlMmIxNg=="
+#"Authorization Key": "MzgyZTdkNGItZTc5MS00NmU3LTg4NjctNDA0MjVlOGNjYjY5OjlmNzk5ZjU0LTczMTQtNDVjYi1hYTRjLWVlOTliYjVlMmIxNg=="
+#"Authorization Key": 'MzgyZTdkNGItZTc5MS00NmU3LTg4NjctNDA0MjVlOGNjYjY5OjU1YWIyOWVmLTc4NWEtNGYyOC1iZDg2LTk3YzBkMzYxMmQzNg=='
+"Authorization Key": 'OGU0ZjY4ZmQtMmFmZS00YmNkLTllODUtN2Q3ZGI3ZTRlNGYzOjEzNjFiZmViLTY4MTktNGE4ZS1iNDllLWFjZDA0MGU1ZDNlMg=='
 
 #382e7d4b-e791-46e7-8867-40425e8ccb69:9f799f54-7314-45cb-aa4c-ee99bb5e2b16
 

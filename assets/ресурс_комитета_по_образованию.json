@@ -24,11 +24,11 @@
       "participationOlympiad" : true,
       "prizePlaceOlympiad" : 0,
       "subjects" : [
-        { "subjectName" : "Информатика", "grade" : "5" },
+        { "subjectName" : "Информатика", "grade" : "3" },
         { "subjectName" : "Литература", "grade" : "4" },
         { "subjectName" : "История", "grade" : "4" },
         { "subjectName" : "Английский", "grade" : "2" },
-        { "subjectName" : "Математика", "grade" : "5" }
+        { "subjectName" : "Математика", "grade" : "3" }
       ]
     }
   }
