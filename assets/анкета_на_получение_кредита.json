@@ -4,7 +4,7 @@
     "lastName": "Иванов",
     "middleName": "Иванович",
     "gender" : "M",
-    "birthDate" : "19.12.2005",
+    "birthDate" : "19.12.2000",
     "citizenship" : "Россия",
     "addresses" : {
       "registrationAddress" : "Владимирская область, г. Владимир ул.Ленина 3",

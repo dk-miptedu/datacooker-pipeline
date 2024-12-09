@@ -106,7 +106,7 @@ class LangChainDataProcessor:
         # Отправляем запрос в LLM с подготовленным запросом
         messages=[
             SystemMessage(content=prompt),
-            HumanMessage(content="Сделай маппинг данных")
+            #HumanMessage(content="Исключи повторяющиеся данные, сделай маппинг и верни JSON")
         ]
         response = self.llm.invoke(messages)
         #response = self.llm.chat(messages=[prompt])

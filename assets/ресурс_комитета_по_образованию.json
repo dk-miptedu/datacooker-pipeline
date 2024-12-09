@@ -4,7 +4,7 @@
     "lastName": "Иванов",
     "middleName": "Иванович",
     "gender" : "M",
-    "birthDate" : "19.12.2005",
+    "birthDate" : "19.12.2000",
     "citizenship" : "RUSSIA",
     "educationStatus" : "3",
     "bachelorInfo" : {
