@@ -87,12 +87,12 @@ class LangChainDataProcessor:
         #print(f'\n\nschema: \n{schema}')
 
         # Генерируем выходной JSON
-        print(f'Генерируем выходной JSON')
+        #print(f'Генерируем выходной JSON')
         output_json = self.generate_output_json(input_data, schema)
 
-        print('=' * 100)
-        print(output_json)
-        print('=' * 100)
+        #print('=' * 100)
+        #print(output_json)
+        #print('=' * 100)
 
         return output_json
 
@@ -116,7 +116,7 @@ class LangChainDataProcessor:
         if json_match:
               json_string = json_match.group(1)
 
-        print(f'\n\n{json_string}\n\n')
+        #print(f'\n\n{json_string}\n\n')
         #print(f'\n\n{response.choices[0].message.content}\n\n')
 
 
@@ -125,7 +125,7 @@ class LangChainDataProcessor:
             
             output_data = json.loads(json_string)
             #output_data = json.loads(response.choices[0].message.content)
-            print(f'output_data\n\n {output_data}')
+
         except json.JSONDecodeError as e:
             raise ValueError(f"Не удалось преобразовать ответ LLM в JSON: {e}")
 
