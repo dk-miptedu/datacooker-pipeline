@@ -1,4 +1,5 @@
 import json
+import re
 from typing import List, Dict, Any
 from langchain_gigachat.chat_models import GigaChat
 from langchain_core.messages import HumanMessage, SystemMessage
@@ -110,10 +111,14 @@ class LangChainDataProcessor:
         response = self.llm.invoke(messages)
         #response = self.llm.chat(messages=[prompt])
 
-        json_string = response #.content.strip()
-        print(dir(response))
+        json_string = response.content.strip()
+        json_match = re.search(r'```json\s*(.*?)\s*```', json_string, re.DOTALL)
+        if json_match:
+              json_string = json_match.group(1)
+
         print(f'\n\n{json_string}\n\n')
         #print(f'\n\n{response.choices[0].message.content}\n\n')
+
 
         try:
             # Преобразуем ответ в словарь
